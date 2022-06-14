@@ -156,4 +156,4 @@ En la carpeta principal a la altura del backend (osea no estamos adentro)\
 npx create-react-app frontend\
 le hacemos rename a la carpeta Frontend (se ve feo en minus si Backend tiene mayus)\
 cd Frontend\
-npm start\
+npm start
