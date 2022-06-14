@@ -1,0 +1,64 @@
+{
+    "FILE_NAME": "configuracion_global.json",
+    "ENVIRONMENT": "local",
+    "BASE_URL": {
+        "dev": [
+            "https://dev.ejemplo.com"
+        ],
+        "local": [
+            "http://localhost:8000"
+        ],
+        "qa": [
+            "https://qa.ejemplo.com"
+        ],
+        "produccion": [
+            "https://ejemplo.com"
+        ]
+    },
+    "SECRET_KEY": "una_vaina_loca_de_clave_secreta",
+    "LANGUAGE_CODE": "es-co",
+    "TIME_ZONE": "America/Bogota",
+    "ALLOWED_HOSTS": {
+        "dev": [
+            "https://dev.ejemplo.com"
+        ],
+        "local": [
+            "http://localhost:8000"
+        ],
+        "qa": [
+            "https://qa.ejemplo.com"
+        ],
+        "produccion": [
+            "https://ejemplo.com"
+        ]
+    },
+    "CORS_ALLOWED_ORIGINS": {
+        "dev": [
+            "https://dev.ejemplo.com"
+        ],
+        "local": [
+            "http://localhost:8000"
+        ],
+        "qa": [
+            "https://qa.ejemplo.com"
+        ],
+        "produccion": [
+            "https://*.ejemplo.com"
+        ]
+    },
+    "DB_CONN_MAX_AGE": 5,
+    "ENGINE": "django.db.backends.postgresql_psycopg2",
+    "NAME": "nombre_db",
+    "USER": "usuario_db",
+    "PASSWORD": "contraseña_db",
+    "HOST": "localhost",
+    "PORT": "5432",
+    "EMAIL_USE_SSL": "True",
+    "EMAIL_USE_TLS": "False",
+    "EMAIL_BACKEND" : "django_smtp_ssl.SSLEmailBackend",
+    "EMAIL_HOST" : "mail.ejemplo.com",
+    "EMAIL_PORT" : 465,
+    "EMAIL_HOST_USER" : "info@ejemplo.com",
+    "EMAIL_HOST_PASSWORD" : "ejemplo.com_password",
+    "DEFAULT_FROM_EMAIL" : "EMAIL_HOST_USER"
+}
