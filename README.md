@@ -13,8 +13,8 @@
 10. Crear el configuracion_global.json a la altura del manage.py
 11. Para el manejo de imagenes usar Pillow || pip install Pillow
 12. Para el manejo de rutas usar Unipath || pip install Unipath
-13. Para el manejo de API Rest usar Restframework || pip install djangorestframework
-13.1 Corsheaders || pip install django-cors-headers
+13. Para el manejo de API Rest usar Restframework || pip install djangorestframework\
+Corsheaders || pip install django-cors-headers
 14. Instalar el "controlador" de la BD a usar || pip install psycopg2 => Postgresql Windows || pip install psycopg2-binary => Postgresql Linux
 15. Crear carpeta public
 16. Dentro de la carpeta public:
