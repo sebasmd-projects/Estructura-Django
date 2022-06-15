@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 import json
 from django.core.exceptions import ImproperlyConfigured
-from pathlib import Path
+from unipath import Path
 
 # Build paths inside the project like this: BASE_DIR.child('subdir') ejm BASE_DIR.child('public','static') is public/static
 BASE_DIR = Path(__file__).ancestor(3)
